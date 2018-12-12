@@ -10,8 +10,13 @@ From the abstract:
 
 # Use
 ```
+// need a directory for compiled binaries. be sure to add 
 mkdir bin
+
+// javac is our unix compiler. this step compiles our source files in /java/core, including our helper utilities in jars/.
 javac -d bin -sourcepath java/core -cp jars/Jama-1.0.3.jar:jars/commons-beanutils-1.9.3.jar:jars/commons-collections4-4.1.jar:jars/commons-io-2.6.jar:jars/itext-1.3.jar:jars/jcommon-1.0.23.jar:jars/jfreechart-1.0.19.jar:jars/jsci-core.jar:jars/optimization.jar:jars/pmUtility.jar:jars/readme.txt:jars/snappy-java-1.1.7.jar java/core/*.java
+
+// java executes a compiled source file - in this case DisjointSet in the core directory. again, jars also must be specified.
 java -cp bin:jars/Jama-1.0.3.jar:jars/commons-beanutils-1.9.3.jar:jars/commons-collections4-4.1.jar:jars/commons-io-2.6.jar:jars/itext-1.3.jar:jars/jcommon-1.0.23.jar:jars/jfreechart-1.0.19.jar:jars/jsci-core.jar:jars/optimization.jar:jars/pmUtility.jar:jars/readme.txt:jars/snappy-java-1.1.7.jar core.DisjointSet
 ```
 
