@@ -21,8 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
+// define this as a member of the 'core' package
 package core;
 
+// Jama is in our jars dir
 import Jama.Matrix;
 import java.util.ArrayList;
 import java.util.TreeSet;
@@ -31,8 +34,10 @@ import java.util.TreeSet;
  *
  * @author Stephen P. Ryan <stephen.p.ryan@wustl.edu>
  */
+
 public class DisjointSet {
 
+    // define the main method that begins the program
     public static void main(String[] args) {
         ArrayList<Integer> data = new ArrayList<>();
         data.add(1);
