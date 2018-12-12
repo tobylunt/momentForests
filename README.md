@@ -6,7 +6,7 @@ Java source code implementing moment forests from Asher, Nekipelov, Novosad, and
 See https://sites.wustl.edu/stephenpryan/files/2018/02/momentTrees-2m5z1ds.pdf.
 
 From the abstract:
->We propose a new methodology, moment forests, that allows parameters in a broad class of moment-based models to vary across groups of observations on the basis of observable characteristics. Leveraging a generalization of classification trees, the es- timator first assigns observations to disjoint subgroups sharing common parameters, and then estimates an empirical model within each group. We prove the consistency of this estimator and show that standard rates of convergence apply to the second stage estimates under weak regularity conditions. We showcase our approach by estimating heterogeneous treatment effects in a regression discontinuity design in a development setting."
+>We propose a new methodology, moment forests, that allows parameters in a broad class of moment-based models to vary across groups of observations on the basis of observable characteristics. Leveraging a generalization of classification trees, the estimator first assigns observations to disjoint subgroups sharing common parameters, and then estimates an empirical model within each group. We prove the consistency of this estimator and show that standard rates of convergence apply to the second stage estimates under weak regularity conditions. We showcase our approach by estimating heterogeneous treatment effects in a regression discontinuity design in a development setting.
 
 # Use
 ```
